@@ -1,5 +1,5 @@
 {
-  "name": "@solenopsys/sc-fm-quality-alexstorm",
+  "name": "@solenopsys/sc-fm-quality-richteri",
   "version": "0.9.1",
   "scripts": {
     "test": "node index.js",
