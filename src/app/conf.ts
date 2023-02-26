@@ -1,9 +1,9 @@
 import {RouterModule, Routes} from "@angular/router";
-import {FuiTemplatesModule, TABLE_PAGE} from "@solenopsys/uimatrix-templates";
+import {FuiTemplatesModule, TABLE_PAGE} from "@solenopsys/ui-templates";
 import {BrowserModule} from "@angular/platform-browser";
 import {FormsModule} from "@angular/forms";
 import {UtilsGlobalsModule} from "@solenopsys/lib-globals";
-import {FuiGridModule} from "@solenopsys/uimatrix-lists";
+import {FuiGridModule} from "@solenopsys/ui-lists";
 import {CommonModule} from "@angular/common";
 import {BUGS, SCOPES, TODOS} from "./tables.config";
 
