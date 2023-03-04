@@ -9,7 +9,7 @@
       "executor": "@angular-devkit/build-angular:browser",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/packages/quality-richteri",
+        "outputPath": "dist/modules/quality-richteri",
         "index": "packages/modules/quality-richteri/src/index.html",
         "main": "packages/modules/quality-richteri/src/main.ts",
         "polyfills": "packages/modules/quality-richteri/src/polyfills.ts",
