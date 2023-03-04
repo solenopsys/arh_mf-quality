@@ -1,9 +1,9 @@
 import {RouterModule, Routes} from "@angular/router";
-import {FuiTemplatesModule, TABLE_PAGE} from "@solenopsys/ui-templates";
+import {UITemplatesModule, TABLE_PAGE} from "@solenopsys/ui-templates";
 import {BrowserModule} from "@angular/platform-browser";
 import {FormsModule} from "@angular/forms";
 import {UtilsGlobalsModule} from "@solenopsys/fl-globals";
-import {FuiGridModule} from "@solenopsys/ui-lists";
+import { UIListsModule} from "@solenopsys/ui-lists";
 import {CommonModule} from "@angular/common";
 import {BUGS, SCOPES, TODOS} from "./tables.config";
 
@@ -17,8 +17,8 @@ export const IMPORTS_CONF = [
   FormsModule,
   RouterModule,
   UtilsGlobalsModule,
-  FuiTemplatesModule,
-  FuiGridModule,
+  UITemplatesModule,
+  UIListsModule,
   CommonModule,
   UtilsGlobalsModule,
 ]
