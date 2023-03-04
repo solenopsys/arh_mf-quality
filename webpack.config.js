@@ -48,7 +48,7 @@ module.exports = {
       name: 'quality',
       filename: 'remoteEntry.js',
       exposes: {
-        './Module': 'packages/modules/quality/src/app/entry.module.ts',
+        './Module': 'packages/modules/mf-quality/src/app/entry.module.ts',
       },
       shared: share({
         '@angular/core': {
@@ -104,8 +104,8 @@ module.exports = {
     }),
     iconPlug(
       'packages/fui/icons/src',
-      'dist/modules/richteri/quality',
-      'packages/modules/quality/src/assets/menu.json'
+      'dist/modules/mf-richteri/quality',
+      'packages/modules/mf-quality/src/assets/menu.json'
     ),
     sharedMappings.getPlugin(),
   ],

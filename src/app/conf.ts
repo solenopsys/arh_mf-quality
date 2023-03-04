@@ -31,6 +31,6 @@ export const TABLES_CONFS = {
 
 export const PROVIDERS_CONF = [
   {provide: 'tables', useValue: TABLES_CONFS},
-  {provide: 'assets_dir', useValue: "/fm/modules/richteri/quality"},
+  {provide: 'assets_dir', useValue: "/fm/modules/mf-richteri/quality"},
   {provide: 'mod_name', useValue: "quality"}
 ]
