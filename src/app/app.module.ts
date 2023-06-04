@@ -1,8 +1,6 @@
 import {NgModule} from '@angular/core';
 import {BootstrapComponent} from "@solenopsys/ui-templates";
 import {IMPORTS_CONF, PROVIDERS_CONF, ROUTES} from "./conf";
-import {createNgxs} from "@solenopsys/fl-storage";
-import {environment} from "../environments/environment";
 import {RouterModule} from "@angular/router";
 
 
@@ -10,7 +8,7 @@ import {RouterModule} from "@angular/router";
   declarations: [],
   imports: [
     RouterModule.forChild([...ROUTES]),
-    ...IMPORTS_CONF, ...createNgxs(!environment.production)
+    ...IMPORTS_CONF,
   ],
   providers: [...PROVIDERS_CONF],
   bootstrap: [BootstrapComponent],
