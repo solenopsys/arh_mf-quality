@@ -5,7 +5,7 @@
     "build": "vite build  -c ../../../lib.config.js"
   },
   "type": "module",
-  "peerDependencies": {
+  "dependencies": {
     "@solenopsys/ui-templates": "^0.1.0",
     "@solenopsys/fl-storage": "^0.1.0",
     "@solenopsys/fl-globals": "^0.1.0",
